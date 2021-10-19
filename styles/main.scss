@@ -35,3 +35,32 @@ a {
     display: none;
   }
 }
+.border-icon__rounded{
+  width: 110px;
+  height: 110px;
+  transition: box-shadow .3s;
+  border: 3px solid #668cb8;
+  background-color: #aed4ff;
+  border-radius: 50%;
+  &:hover{
+    box-shadow: 0 0 20px rgba(14, 14, 14, 0.2);
+  }
+  &.padding-tramites{
+    padding: 15px 5px 15px 25px;
+  }
+  &.padding-turnos{
+    padding: 5px 10px 30px 10px;
+  }
+}
+.section-link{
+  cursor: pointer;
+  height: 180px;
+}
+.icon-actions{
+  width: 65px;
+  height: 65px;
+}
+.font-bold{
+  font-weight: bold;
+  color:#668cb8;
+}
